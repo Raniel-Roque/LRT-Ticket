@@ -237,6 +237,7 @@ Partial Class TicketOutput
         'NewFare
         '
         Me.NewFare.BackColor = System.Drawing.Color.CadetBlue
+        Me.NewFare.Cursor = System.Windows.Forms.Cursors.Hand
         Me.NewFare.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.NewFare.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CadetBlue
         Me.NewFare.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PowderBlue

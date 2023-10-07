@@ -105,6 +105,7 @@ Partial Class TicketMain
         'Clear
         '
         Me.Clear.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Clear.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Clear.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Clear.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -198,6 +199,7 @@ Partial Class TicketMain
         'Buy
         '
         Me.Buy.BackColor = System.Drawing.Color.PaleGreen
+        Me.Buy.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Buy.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Buy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleGreen
         Me.Buy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))

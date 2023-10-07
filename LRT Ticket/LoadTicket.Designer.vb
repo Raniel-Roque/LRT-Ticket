@@ -60,14 +60,17 @@ Partial Class LoadTicket
         '
         'PB
         '
+        Me.PB.Cursor = System.Windows.Forms.Cursors.WaitCursor
         Me.PB.Location = New System.Drawing.Point(28, 128)
         Me.PB.Name = "PB"
         Me.PB.Size = New System.Drawing.Size(412, 31)
         Me.PB.TabIndex = 2
+        Me.PB.UseWaitCursor = True
         '
         'Enter
         '
         Me.Enter.BackColor = System.Drawing.Color.PaleGreen
+        Me.Enter.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Enter.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Enter.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleGreen
         Me.Enter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
