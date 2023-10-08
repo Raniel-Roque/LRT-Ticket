@@ -1,7 +1,7 @@
-﻿Imports System.Xml
-Imports System.Xml.Schema
-
-Public Class TicketOutput
+﻿Public Class TicketOutput
+    'Programmer: Roque, Raniel Christian B
+    'BSIT-2A
+    'Date Finished: October 8 2023
     Dim Ticket_Load_Form As LoadTicket
     Private Sub HomeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HomeToolStripMenuItem.Click
         ' Goes to Loading
@@ -23,6 +23,7 @@ Public Class TicketOutput
     End Sub
 
     Private Sub TicketOutput_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Values
         FromBox.Text = DataModule.FromPlace
         ToBox.Text = DataModule.ToPlace
         DiscBox.Text = DataModule.DiscountRate
