@@ -72,7 +72,7 @@ Partial Class TicketMain
         Me.FromLoc.FormattingEnabled = True
         Me.FromLoc.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.FromLoc.IntegralHeight = False
-        Me.FromLoc.Items.AddRange(New Object() {"Baclaran", "United Nations", "Rizal Park", "Quiapo", "Luneta", "Roxas Boulevard", "Taft Avenue", "Ayala Triangle", "Legarda", "Magallanes", "Makati Central Business District", "Ayala Alabang", "Alabang", "Zapote", "San Miguel", "Dr. A. Santos", "Central Terminal", "Monumento", "EDSA", "Roosevelt"})
+        Me.FromLoc.Items.AddRange(New Object() {"Baclaran", "United Nations", "Rizal Park", "Quiapo", "Luneta", "Roxas Boulevard", "Taft Avenue", "Ayala Triangle", "Legarda", "Magallanes", "Makati CBD", "Ayala Alabang", "Alabang", "Zapote", "San Miguel", "Dr. A. Santos", "Central Terminal", "Monumento", "EDSA", "Roosevelt"})
         Me.FromLoc.Location = New System.Drawing.Point(17, 82)
         Me.FromLoc.MaxDropDownItems = 5
         Me.FromLoc.Name = "FromLoc"
@@ -87,7 +87,7 @@ Partial Class TicketMain
         Me.ToLoc.FormattingEnabled = True
         Me.ToLoc.ImeMode = System.Windows.Forms.ImeMode.NoControl
         Me.ToLoc.IntegralHeight = False
-        Me.ToLoc.Items.AddRange(New Object() {"Baclaran", "United Nations", "Rizal Park", "Quiapo", "Luneta", "Roxas Boulevard", "Taft Avenue", "Ayala Triangle", "Legarda", "Magallanes", "Makati Central Business District", "Ayala Alabang", "Alabang", "Zapote", "San Miguel", "Dr. A. Santos", "Central Terminal", "Monumento", "EDSA", "Roosevelt"})
+        Me.ToLoc.Items.AddRange(New Object() {"Baclaran", "United Nations", "Rizal Park", "Quiapo", "Luneta", "Roxas Boulevard", "Taft Avenue", "Ayala Triangle", "Legarda", "Magallanes", "Makati CBD", "Ayala Alabang", "Alabang", "Zapote", "San Miguel", "Dr. A. Santos", "Central Terminal", "Monumento", "EDSA", "Roosevelt"})
         Me.ToLoc.Location = New System.Drawing.Point(17, 154)
         Me.ToLoc.MaxDropDownItems = 5
         Me.ToLoc.Name = "ToLoc"
