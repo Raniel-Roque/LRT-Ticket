@@ -28,7 +28,7 @@
     End Function
     'Main Function for Net Fare
     Private Function CalculateCost(numOfPerson As Double, fromLoc As Integer, toLoc As Integer, discount As Integer) As Double
-        Return (numOfPerson * (Math.Abs((fromLoc * 20) - (toLoc * 20)))) - (DiscountNum(discount) * (numOfPerson * (Math.Abs((fromLoc * 20) - (toLoc * 20)))))
+        Return Math.Abs((fromLoc - toLoc) * 20 * numOfPerson) - (DiscountNum(discount) * Math.Abs((fromLoc - toLoc) * 20 * numOfPerson))
     End Function
     'Error Detection + Automatic Calculation Function
     Public Sub CalculateAndDisplayCost()
